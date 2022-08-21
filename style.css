@@ -1,0 +1,609 @@
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+} */
+
+body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+
+nav {
+    width: 100%;
+    background: #131114;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+
+
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+    justify-content: right;
+    text-decoration: none;
+    text-decoration-style: none;
+    padding-right: 10%;
+    margin: 0;
+}
+
+li {
+    width: 150px;
+    height: 50px;
+    list-style-type: none;
+}
+
+ul li a {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #19c4d8;
+    font-family: sans-serif;
+}
+
+li a:visited {
+    text-decoration: none;
+}
+
+li a:focus {
+    text-decoration: none;
+}
+
+#paw {
+    width: 5%;
+    margin: 0 10% 0 2%;
+    max-width: 100%;
+    padding: 5em 5em 0 5em;
+}
+
+#second {
+    background-color: rgb(49, 107, 137, 0.70);
+
+    /* border: 3px solid black;
+    box-sizing: border-box; */
+    /* height: 100%; */
+    /*margin: 0;
+    
+    
+    padding: 0;
+    overflow-x: hidden; */
+
+
+}
+
+
+footer {
+    background-color: #19c4d8;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+
+    /* overflow-x: hidden; */
+}
+
+header {
+    background-color: #deecf2;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    /* overflow-x: hidden; */
+
+}
+
+#smilingDog {
+
+    width: 15%;
+    float: right;
+    margin: 0 10% 0 2%;
+    position: relative;
+    bottom: 50px;
+    border: 5px dotted #131114;
+    max-width: 100%;
+    background: url('download.jpg');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+#smilingDog:hover {
+    background: url('downloadWink.jpg');
+    background-repeat: no-repeat;
+    transform: rotateZ(10deg);
+}
+
+/*#smilingDog:hover{
+    transform: rotateZ(10deg);
+}*/
+
+.benefits {
+    position: apsolute;
+    top: 0;
+    left: 0;
+    margin: 0 5% 0 10%;
+    padding: 1em 5em;
+
+
+}
+
+.max {
+    max-width: 900px;
+
+}
+
+
+
+.paragraph {
+    text-align: justify;
+    font-size: large;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 0 25% 0 0;
+}
+
+.benefits::before {
+    padding-top: 50px;
+    content: "\201c";
+    font-size: 70px;
+    margin-bottom: -10px;
+    margin-top: -5px;
+    display: flex;
+    align-self: flex-start;
+    color: #131114;
+
+}
+
+input#name {
+    height: 3em;
+}
+
+input#lastname {
+    height: 3em;
+}
+
+input#telnum {
+    width: 100%;
+    height: 3em;
+}
+
+input#email {
+    width: 100%;
+    height: 3em;
+}
+
+textarea#comments {
+    width: 100%;
+    height: 5em;
+}
+
+#dogs {
+    transition: transform .2s;
+    border-radius: 50%;
+
+}
+
+#dogs:hover {
+    transform: scale(1.2);
+
+}
+
+#bigEars {
+    transition: transform .2s;
+    border-radius: 50%;
+}
+
+#bigEars:hover {
+    transform: scale(1.2);
+}
+
+#blackAndWhite {
+    transition: transform .2s;
+    border-radius: 50%;
+}
+
+#blackAndWhite:hover {
+    transform: scale(1.2);
+}
+
+#pups {
+    transition: transform .2s;
+    border-radius: 50%;
+}
+
+#pups:hover {
+    transform: scale(1.2);
+}
+
+#Dogg {
+    transition: transform .2s;
+    border-radius: 50%;
+}
+
+#Dogg:hover {
+    transform: scale(1.2);
+}
+
+.third p {
+    padding: 40em;
+}
+
+
+
+.third {
+    padding: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+    justify-content: center;
+    background-color: #fff38d;
+    width: 100%;
+    gap: 5em;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    /* overflow-x: hidden; */
+    /* border: 5px solid black;
+    box-sizing: border-box; */
+
+}
+
+#border {
+    border-top: 5px solid black;
+
+}
+
+#firstflex {
+
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 35px 0px;
+    overflow-x: hidden;
+
+}
+
+#secondflex {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    padding: 35px 0px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #19c4d8;
+    padding-top: 3em;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+#footer a {
+    text-decoration: none;
+    font-size: larger;
+    color: #131114;
+}
+
+#form {
+    margin: auto;
+}
+
+.form {
+    width: 25%;
+}
+
+#getInvolved {
+    padding: 5em 0 0 0;
+    font-size: x-large;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#getInvolved a:hover {
+    transform: rotateZ(10deg);
+    color: #deecf2;
+}
+
+.current {
+    background-color: #fff38d;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    background-color: #fff38d;
+    padding-top: 50px;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+
+    /* border: 5px solid black;
+    box-sizing: border-box; */
+
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
+main {
+    background-color: #fff38d;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+table {
+    margin: auto;
+}
+
+h2,
+h1 {
+    margin: 0;
+    padding: 2em 0 0 2em;
+    text-align: center;
+}
+
+#comment {
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.smallsc {
+    display: none;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: large;
+    line-height: 1.6;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+
+}
+
+label {
+    font-family: sans-serif;
+}
+
+h2#ejc.divcic {
+    text-align: center;
+    position: relative;
+}
+
+div#footer.divcic {
+
+    padding-top: 50px;
+
+}
+
+p#comment {
+
+    max-width: 400px;
+}
+
+#left {
+    padding-left: 150px;
+}
+
+@media (max-width: 895px) {
+    /* 
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+} */
+
+    #smilingDog,
+    #paw {
+        display: none;
+    }
+
+    .paragraph {
+        padding-top: 50px;
+    }
+
+    h2.divcic {
+        padding-top: 150px;
+    }
+
+    img#WALTER.dogs {
+        padding-top: 100px;
+    }
+
+    div#footer.divcic {
+
+        padding-top: 150px;
+
+    }
+
+    div#text.third {
+        padding-top: 150px;
+    }
+
+    input.form {
+        width: 250px;
+    }
+
+    #left {
+        padding: 5px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+
+    .gone {
+        display: none;
+    }
+
+    tr {
+        width: 60%;
+        display: grid;
+        column-gap: 1em;
+        grid-template-columns: 10em 1fr;
+    }
+
+    .divcic {
+        padding-top: 150px;
+    }
+
+    .container.container1 {
+        padding: 30vh 0 0 0;
+    }
+
+    #firstFlex {
+        padding: 30vh 0 0 0;
+    }
+
+    .smallsc {
+        display: flex;
+    }
+
+
+
+    h2.divcic {
+        padding-top: 150px;
+    }
+
+    img#WALTER.dogs {
+        padding-top: 150px;
+    }
+
+    div#footer.divcic {
+
+        padding-top: 150px;
+
+    }
+
+    div#text.third {
+        padding-top: 150px;
+    }
+
+    h2#ejc.divcic {
+        padding-top: 200px;
+    }
+
+    input#fullName {
+        width: 166px;
+        height: 46px;
+    }
+
+    input.form {
+        width: 250px;
+    }
+
+    #left {
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+
+
+    }
+
+    #par {
+        padding-top: 150px;
+    }
+
+
+    h2.divcic {
+        padding-top: 250px;
+    }
+
+    img#WALTER.dogs {
+        padding-top: 250px;
+    }
+
+    div#footer.divcic {
+
+        padding-top: 250px;
+
+    }
+
+    div#text.third {
+        padding-top: 250px;
+    }
+
+    h2#ejc.divcic {
+        padding-top: 300px;
+    }
+
+    input.form {
+        width: 250px;
+    }
+
+    div.benefits {
+        padding: 5px;
+    }
+
+    p#comment {
+        padding: 5px;
+        /* max-width: 400px; */
+    }
+
+    #left {
+        padding: 5px;
+    }
+
+}
